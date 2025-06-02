@@ -8,3 +8,31 @@
 .font-Franklin {
     font-family: 'Franklin Gothic Heavy', 'Arial Narrow', Arial, sans-serif;
 }
+
+.animate-forwardScroll {
+    animation: forwardScroll 900s linear infinite;
+}
+
+@keyframes forwardScroll {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.animate-reverseScroll {
+    animation: reverseScroll 900s linear infinite;
+}
+
+@keyframes reverseScroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
