@@ -10,7 +10,7 @@
 }
 
 .animate-forwardScroll {
-    animation: forwardScroll 900s linear infinite;
+    animation: forwardScroll 1200s linear infinite;
 }
 
 @keyframes forwardScroll {
@@ -24,7 +24,7 @@
 }
 
 .animate-reverseScroll {
-    animation: reverseScroll 900s linear infinite;
+    animation: reverseScroll 1200s linear infinite;
 }
 
 @keyframes reverseScroll {

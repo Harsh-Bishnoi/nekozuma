@@ -11,8 +11,8 @@ const Swiper = () => {
     const LeftSwiper = [SwiperImg1, SwiperImg2, SwiperImg3, SwiperImg4];
     const RightSwiper = [SwiperImg5, SwiperImg6, SwiperImg7, SwiperImg8];
 
-    const InfiniteLeftSwiper = Array(50).fill(LeftSwiper).flat()
-    const InfiniteRightSwiper = Array(50).fill(RightSwiper).flat()
+    const InfiniteLeftSwiper = Array(100).fill(LeftSwiper).flat()
+    const InfiniteRightSwiper = Array(100).fill(RightSwiper).flat()
 
     return (
         <div className="flex justify-center items-center flex-col overflow-hidden">
