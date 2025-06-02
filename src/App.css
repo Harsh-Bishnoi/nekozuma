@@ -1,7 +1,8 @@
 @import "tailwindcss";
+@import "@fontsource/sarabun";
 
 .font-sarabun {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Sarabun";
 }
 
 .font-Franklin {

@@ -2,7 +2,7 @@ import React from 'react'
 
 const SubHeading = ({ SubHeadingText, SubHeadingClass }) => {
     return (
-        <h2 className={`font-normal text-[43px] leading-[100%] text-[#3586FF] text-center ${SubHeadingClass}`}>{SubHeadingText}</h2>
+        <h2 className={`font-franklin font-normal text-[43px] leading-[100%] text-[#3586FF] text-center ${SubHeadingClass}`}>{SubHeadingText}</h2>
     )
 }
 
