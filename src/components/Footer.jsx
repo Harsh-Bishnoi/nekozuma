@@ -13,8 +13,8 @@ const Footer = () => {
                 <div className="max-w-[880px] px-3 mx-auto z-1">
                     <a href='#'><SubHeading SubHeadingClass={"text-white font-Franklin tracking-[2.20px] !text-[21.64px] text-center mb-6"} SubHeadingText={"NEKOZUMA"} /></a>
                     <div className="flex gap-6 mx-auto justify-center">
-                        <a href=""><FooterDiscord /></a>
-                        <a href=""><FooterTwitter /></a>
+                        <a className='hover:scale-110 transition-all duration-200 ease-linear' href="https://discord.com/" target='_blank'><FooterDiscord /></a>
+                        <a className='hover:scale-110 transition-all duration-200 ease-linear' href="https://x.com/" target='_blank'><FooterTwitter /></a>
                     </div>
                 </div>
             </div>
