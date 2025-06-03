@@ -27,7 +27,7 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="w-full flex justify-end">
-                    <img className='w-full max-w-[510px] xl:max-w-[557px] lg:absolute right-0 bottom-0' src={Img_1} alt="header-img" />
+                    <img className='w-full max-w-[510px] xl:max-w-[557px] lg:absolute right-0 bottom-0 pointer-events-none' src={Img_1} alt="header-img" />
                 </div>
             </div>
         </>
