@@ -18,15 +18,15 @@ const Swiper = () => {
         <div className="flex justify-center items-center flex-col overflow-hidden">
             <div className="flex animate-forwardScroll">
                 {InfiniteLeftSwiper.map((item, index) => (
-                    <div id={index}>
-                        <img className='max-w-[320px]' src={item} alt="images" />
+                    <div className='overflow-hidden' id={index}>
+                        <img className='max-w-[320px] object-cover transition-transform duration-300 ease-in-out hover:scale-110' src={item} alt="images" />
                     </div>
                 ))}
             </div>
             <div className="flex animate-reverseScroll">
                 {InfiniteRightSwiper.map((item, index) => (
-                    <div id={index}>
-                        <img className='max-w-[320px]' src={item} alt="images" />
+                    <div className='overflow-hidden' id={index}>
+                        <img className='max-w-[320px] object-cover transition-transform duration-300 ease-in-out hover:scale-110' src={item} alt="images" />
                     </div>
                 ))}
             </div>
