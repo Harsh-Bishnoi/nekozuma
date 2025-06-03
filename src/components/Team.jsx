@@ -5,7 +5,7 @@ import { TEAM_DATA } from '../utils/helper'
 
 const Team = () => {
     return (
-        <div className="flex justify-center items-center mb-10 sm:mb-16">
+        <div id='team' className="flex justify-center items-center mb-10 sm:mb-16">
             <div className="max-w-[880px] mt-10 sm:mt-[61px] mx-auto">
                 <Line LineClass="flex mx-auto" />
                 <SubHeading SubHeadingClass={"mt-7 sm:mt-14"} SubHeadingText={"Team"} />

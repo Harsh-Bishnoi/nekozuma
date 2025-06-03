@@ -1,4 +1,5 @@
 import './App.css'
+import BackToTop from './components/BackToTop'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import Story from './components/Story'
@@ -14,6 +15,7 @@ function App() {
       <Story />
       <Team />
       <Footer />
+      <BackToTop />
     </>
   )
 }

@@ -1,6 +1,10 @@
 @import "tailwindcss";
 @import "@fontsource/sarabun";
 
+* {
+    scroll-behavior: smooth;
+}
+
 .font-sarabun {
     font-family: "Sarabun";
 }

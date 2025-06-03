@@ -5,7 +5,7 @@ import StoryImg from '../assets/images/png/story-img.png'
 const Story = () => {
     return (
         <>
-            <div className="flex justify-center items-center flex-col">
+            <div id='story' className="flex justify-center items-center flex-col">
                 <div className="max-w-[888px] max-lg:px-3 w-full">
                     <SubHeading SubHeadingClass={"mt-10 sm:mt-12"} SubHeadingText={"Story"} />
                     <Description DescriptionClass={"text-center max-sm:text-sm pt-[23px]"} DescriptionText={"Nekozuma which means lightning cats in Japanese (Neko = Cats // Inazuma = Lightning) is a collection of 5555 NFTs on the Solana blockchain. The story centers around 3 eras of cats living in different timelines - past, present, future. In each timeline, there are 3 deities that are all powerful and are meant to protect the world of Nekos."} />
