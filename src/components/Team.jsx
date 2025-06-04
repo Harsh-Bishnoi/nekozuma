@@ -11,7 +11,7 @@ const Team = () => {
                 <SubHeading subHeadingClass={"mt-7 sm:mt-14"} subHeadingText={"Team"} />
                 <div className="flex flex-wrap -mx-3 flex-row justify-center items-center mt-6 sm:mt-9">
                     {TEAM_DATA.map((item, index) => (
-                        <div key={index} className="max-w-[350px] md:max-w-[320px] lg:max-w-[202px] w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-3 mb-7 md:mb-9">
+                        <div key={index} className="max-w-[350px] md:max-w-[320px] lg:max-w-[222px] w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-3 mb-7 md:mb-9">
                             <img className="pointer-events-none w-full" src={item.img} alt={item.name} />
                             <h3 className="font-franklin font-normal text-2xl leading-[27px] text-center pt-2 md:pt-[23px] text-[#3586FF]">
                                 {item.job}
