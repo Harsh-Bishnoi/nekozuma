@@ -1,57 +1,57 @@
-import img_1 from '../assets/images/png/team-img-1.png'
-import img_2 from '../assets/images/png/team-img-2.png'
-import img_3 from '../assets/images/png/team-img-3.png'
-import img_4 from '../assets/images/png/team-img-4.png'
-import img_5 from '../assets/images/png/team-img-5.png'
-import img_6 from '../assets/images/png/team-img-6.png'
-import img_7 from '../assets/images/png/team-img-7.png'
-import img_8 from '../assets/images/png/team-img-8.png'
+import imgOne from '../assets/images/png/team-img-1.png'
+import imgTwo from '../assets/images/png/team-img-2.png'
+import imgThree from '../assets/images/png/team-img-3.png'
+import imgFour from '../assets/images/png/team-img-4.png'
+import imgFive from '../assets/images/png/team-img-5.png'
+import imgSix from '../assets/images/png/team-img-6.png'
+import imgSeven from '../assets/images/png/team-img-7.png'
+import imgEight from '../assets/images/png/team-img-8.png'
 
 export const TEAM_DATA = [
     {
-        img: img_1,
+        img: imgOne,
         job: "Founder",
         name: "Jedi Trinupab ",
         para: "However at every junction in time, there is always a darkness that is waiting to overthrow",
     },
     {
-        img: img_2,
+        img: imgTwo,
         job: "Co Founder",
         name: "Suptoshi",
         para: "However at every junction in time, there is always a darkness that is waiting to overthrow",
     },
     {
-        img: img_3,
+        img: imgThree,
         job: "Artist",
         name: "Korn",
         para: "However at every junction in time, there is always a darkness that is waiting to overthrow",
     },
     {
-        img: img_4,
+        img: imgFour,
         job: "Development",
         name: "Karmic Labs ",
         para: "However at every junction in time, there is always a darkness that is waiting to overthrow",
     },
     {
-        img: img_5,
+        img: imgFive,
         job: "Position",
         name: "Jedi Trinupab",
         para: "However at every junction in time, there is always a darkness that is waiting to overthrow",
     },
     {
-        img: img_6,
+        img: imgSix,
         job: "Position",
         name: "Jedi Trinupab",
         para: "However at every junction in time, there is always a darkness that is waiting to overthrow",
     },
     {
-        img: img_7,
+        img: imgSeven,
         job: "Position",
         name: "Jedi Trinupab",
         para: "However at every junction in time, there is always a darkness that is waiting to overthrow",
     },
     {
-        img: img_8,
+        img: imgEight,
         job: "Position",
         name: "Jedi Trinupab",
         para: "However at every junction in time, there is always a darkness that is waiting to overthrow",

@@ -1,15 +1,15 @@
 import React from 'react'
-import SwiperImg1 from '../assets/images/png/swiper-img-1.png'
-import SwiperImg2 from '../assets/images/png/swiper-img-2.png'
-import SwiperImg3 from '../assets/images/png/swiper-img-3.png'
-import SwiperImg4 from '../assets/images/png/swiper-img-4.png'
-import SwiperImg5 from '../assets/images/png/swiper-img-5.png'
-import SwiperImg6 from '../assets/images/png/swiper-img-6.png'
-import SwiperImg7 from '../assets/images/png/swiper-img-7.png'
-import SwiperImg8 from '../assets/images/png/swiper-img-8.png'
+import swiperImgOne from '../assets/images/png/swiper-img-1.png'
+import swiperImgTwo from '../assets/images/png/swiper-img-2.png'
+import swiperImgThree from '../assets/images/png/swiper-img-3.png'
+import swiperImgFour from '../assets/images/png/swiper-img-4.png'
+import swiperImgFive from '../assets/images/png/swiper-img-5.png'
+import swiperImgSix from '../assets/images/png/swiper-img-6.png'
+import swiperImgSeven from '../assets/images/png/swiper-img-7.png'
+import swiperImgEight from '../assets/images/png/swiper-img-8.png'
 const CommonSwiper = () => {
-    const LeftSwiper = [SwiperImg1, SwiperImg2, SwiperImg3, SwiperImg4];
-    const RightSwiper = [SwiperImg5, SwiperImg6, SwiperImg7, SwiperImg8];
+    const LeftSwiper = [swiperImgOne, swiperImgTwo, swiperImgThree, swiperImgFour];
+    const RightSwiper = [swiperImgFive, swiperImgSix, swiperImgSeven, swiperImgEight];
 
     const InfiniteLeftSwiper = Array(100).fill(LeftSwiper).flat()
     const InfiniteRightSwiper = Array(100).fill(RightSwiper).flat()

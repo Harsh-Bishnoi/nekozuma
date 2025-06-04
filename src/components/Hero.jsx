@@ -1,8 +1,8 @@
 import React from 'react'
 import Description from './common/Description'
-import Img_1 from '../assets/images/png/hero-img.png'
-import LeftLighting from '../assets/images/png/left-lighting.png'
-import RightLighting from '../assets/images/png/right-lighting.png'
+import imgOne from '../assets/images/png/hero-img.png'
+import leftLighting from '../assets/images/png/left-lighting.png'
+import rightLighting from '../assets/images/png/right-lighting.png'
 import Heder from './Header'
 import HeaderBorder from './common/HeaderBorder'
 
@@ -13,8 +13,8 @@ const Hero = () => {
                 <div className="w-full">
                     <Heder />
                 </div>
-                <img className='absolute left-0 bottom-[-12px] hidden lg:block max-h-[411px] pointer-events-none' src={LeftLighting} alt="left-lighting" />
-                <img className='absolute right-0 bottom-0 z-1 pointer-events-none' src={RightLighting} alt="right-lighting" />
+                <img className='absolute left-0 bottom-[-12px] hidden lg:block max-h-[411px] pointer-events-none' src={leftLighting} alt="left-lighting" />
+                <img className='absolute right-0 bottom-0 z-1 pointer-events-none' src={rightLighting} alt="right-lighting" />
                 <div className="max-w-[880px] px-3 w-full mx-auto">
                     <div className="flex flex-wrap -mx-3 flex-row items-center mt-[50px] md:mt-[100px] lg:mt-[164px]">
                         <div className="w-full px-3">
@@ -26,7 +26,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className="w-full flex justify-end">
-                    <img className='w-full max-w-[510px] xl:max-w-[557px] lg:absolute right-0 bottom-0 pointer-events-none' src={Img_1} alt="header-img" />
+                    <img className='w-full max-w-[510px] xl:max-w-[557px] lg:absolute right-0 bottom-0 pointer-events-none' src={imgOne} alt="header-img" />
                 </div>
             </div>
         </>
