@@ -1,25 +1,33 @@
 import React from 'react'
-import { Discord, Twitter } from '../utils/icons'
-import BlueImg from '../assets/images/png/bg.png'
+import Line from './common/Line'
+import Description from './common/Description'
+import Img_1 from '../assets/images/png/header-img.png'
+import LeftLighting from '../assets/images/png/left-lighting.png'
+import RightLighting from '../assets/images/png/right-lighting.png'
+import Heder from './Header'
 
 const Hero = () => {
     return (
         <>
-            <div className="flex justify-center items-center">
-                <div className="max-w-[880px] w-full px-3">
-                    <div className="flex sm:justify-end items-center flex-wrap">
-                        <a href="#">
-                            <img className='w-full max-w-[300px] md:max-w-[424px] absolute start-0 top-0' src={BlueImg} alt="logo" /></a>
-                        <ul className=' gap-8 flex items-center justify-end max-sm:pt-22 py-5 md:py-8.5'>
-                            <li><a className='font-sarabun font-normal text-base leading-[100%] text-white relative after:absolute after:-bottom-1 after:left-1/2 after:-translate-x-1/2 after:h-0.5 after:w-0 after:bg-white after:rounded hover:after:w-full after:duration-300 after:ease-linear after:transition-all' href="#swiper">Overview</a></li>
-                            <li><a className='font-sarabun font-normal text-base leading-[100%] text-white relative after:absolute after:-bottom-1 after:left-1/2 after:-translate-x-1/2 after:h-0.5 after:w-0 after:bg-white after:rounded hover:after:w-full after:duration-300 after:ease-linear after:transition-all' href="#story">Story</a></li>
-                            <li><a className='font-sarabun font-normal text-base leading-[100%] text-white relative after:absolute after:-bottom-1 after:left-1/2 after:-translate-x-1/2 after:h-0.5 after:w-0 after:bg-white after:rounded hover:after:w-full after:duration-300 after:ease-linear after:transition-all' href="#team">Team</a></li>
-                            <div className="flex gap-4.5">
-                                <li className='hover:scale-110 transition-all duration-200 ease-linear'><a href="https://discord.com/" target='_blank'><Discord /></a></li>
-                                <li className='hover:scale-110 transition-all duration-200 ease-linear'><a href="https://x.com/" target='_blank'><Twitter /></a></li>
-                            </div>
-                        </ul>
+            <div className="relative min-h-[635px]">
+                <div className="w-full">
+                    <Heder />
+                </div>
+                <img className='absolute left-0 bottom-0 hidden lg:block max-h-[411px] pointer-events-none' src={LeftLighting} alt="left-lighting" />
+                <img className='absolute right-0 bottom-0 z-1 pointer-events-none' src={RightLighting} alt="right-lighting" />
+                <div className="max-w-[880px] px-3 w-full mx-auto">
+                    <div className="flex flex-wrap -mx-3 flex-row items-center mt-[50px] md:mt-[100px] lg:mt-[164px]">
+                        <div className="w-full px-3">
+                            <Line />
+                            <h1 className='font-Franklin font-normal text-[56px] sm:text-[64px] leading-[100%] text-[#3586FF]'>NEKOZUMA</h1>
+                            <Description DescriptionClass={"lg:max-w-[510px] pt-3"} DescriptionText={"The collection of 5555 NFTs on the Solana blockchain. The collection serves to be a rising force against the anime meta of collections with undoxxed teams and is therefore backed by the team at Nubbies NFT & Karmic Labs."} />
+                            <button className='font-sarabun font-normal cursor-pointer text-base leading-[130%] mt-6 md:mt-[43px] text-white py-2 px-6 bg-[#245AAB] rounded-[9px] hover:bg-white hover:text-[#245AAB] transition-all duration-200 ease-linear'>Connect Wallet</button>
+                        </div>
+
                     </div>
+                </div>
+                <div className="w-full flex justify-end">
+                    <img className='w-full max-w-[510px] xl:max-w-[557px] lg:absolute right-0 bottom-0 pointer-events-none' src={Img_1} alt="header-img" />
                 </div>
             </div>
         </>
