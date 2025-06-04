@@ -35,7 +35,7 @@ const Header = () => {
                     <ul id='nav-name' className={`list-unstyled flex justify-center items-center nav-link gap-8 mb-0 ${menuOpen ? "show-navbar" : ""}`}>
                         {HEADER_DATA.map((item, index) => (
                             <div id={index}>
-                                <li><a className='font-sarabun font-normal text-base leading-[100%] text-white relative after:absolute after:-bottom-1 after:left-1/2 after:-translate-x-1/2 after:h-0.5 after:w-0 after:bg-white after:rounded hover:after:w-full after:duration-300 after:ease-linear after:transition-all' href={item.link}>{item.name}</a></li>
+                                <li><a className='font-sarabun leading-[100%] text-white relative after:absolute after:-bottom-1 after:left-1/2 after:-translate-x-1/2 after:h-0.5 after:w-0 after:bg-white after:rounded hover:after:w-full after:duration-300 after:ease-linear after:transition-all' href={item.link}>{item.name}</a></li>
                             </div>
                         ))}
                         <ul className='flex gap-4.5'>
