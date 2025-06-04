@@ -2,6 +2,7 @@ import React from 'react'
 import SubHeading from './common/SubHeading'
 import { TEAM_DATA } from '../utils/helper'
 import HeaderBorder from './common/HeaderBorder'
+import { Twitter } from '../utils/icons'
 
 const Team = () => {
     return (
@@ -22,16 +23,10 @@ const Team = () => {
                             <p className="font-sarabun font-normal mx-auto text-sm text-center leading-[18px] pt-2 text-[#D4E5FF] md:max-w-[202px]">
                                 {item.para}
                             </p>
-                            <a
-                                className="flex justify-center mx-auto mt-4 max-w-max hover:scale-110 transition-all duration-200 ease-linear team-svg-size"
-                                href="https://x.com/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <item.icon />
+                            <a className="flex justify-center mx-auto mt-4 max-w-max hover:scale-110 transition-all duration-200 ease-linear team-svg-size" href="https://x.com/" target="_blank" >
+                                <Twitter />
                             </a>
                         </div>
-
                     ))}
                 </div>
             </div>
