@@ -51,7 +51,7 @@
     }
 }
 
-@media (max-width: 639.98px) {
+@media (max-width: 767.98px) {
     .nav-link {
         flex-direction: column;
         width: 100%;

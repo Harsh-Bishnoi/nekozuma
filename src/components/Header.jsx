@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-// import blueImg from '../assets/images/png/header-blue-img.png'
+import blueImg from '../assets/images/png/header-blue-img.png'
 import { Discord, Twitter } from '../utils/icons'
 import { HEADER_DATA } from '../utils/helper';
 
@@ -19,10 +19,15 @@ const Header = () => {
 
     return (
         <nav>
-            <div className="max-w-[880px] mx-auto px-3 py-6 sm:py-[31px]">
+            <div className="max-w-[880px] mx-auto pr-3">
                 <div className="flex justify-between items-center">
-                    <a className='font-franklin text-[21.64px] z-1 relative leading-[130%] tracking-[2.20px] text-white' href="/">NEKOZUMA</a>
-                    <div onClick={toggleNavbar} className="z-50 sm:hidden flex flex-col justify-between w-6 h-5 cursor-pointer">
+                    <div className="relative w-[372px] h-[82px] ">
+                        <img src={blueImg} alt="blue-img" className="absolute left-[-120px] sm:left-[-150px] lg:left-[-200px] inset-0 w-full h-full object-cover pointer-events-none" />
+                        <a href="/" className="absolute left-2.5 bottom-7.5 font-franklin text-[21.64px] leading-[130%] tracking-[2.2px] text-white z-1">
+                            NEKOZUMA
+                        </a>
+                    </div>
+                    <div onClick={toggleNavbar} className="z-50 md:hidden flex flex-col justify-between w-6 h-5 cursor-pointer">
                         <span className={`block h-1 rounded-3xl bg-white transition-transform duration-300 ease-in-out ${menuOpen && 'rotate-45 translate-y-2'}`}></span>
                         <span className={`block h-1 rounded-3xl bg-white transition-transform duration-300 ease-in-out ${menuOpen && 'opacity-0'}`}></span>
                         <span className={`block h-1 rounded-3xl bg-white transition-transform duration-300 ease-in-out ${menuOpen && '-rotate-45 -translate-y-2'}`}></span>
