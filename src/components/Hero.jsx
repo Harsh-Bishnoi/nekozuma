@@ -13,7 +13,7 @@ const Hero = () => {
                 <div className="w-full">
                     <Heder />
                 </div>
-                <img className='absolute left-0 bottom-0 hidden lg:block max-h-[411px] pointer-events-none' src={LeftLighting} alt="left-lighting" />
+                <img className='absolute left-0 bottom-[-12px] hidden lg:block max-h-[411px] pointer-events-none' src={LeftLighting} alt="left-lighting" />
                 <img className='absolute right-0 bottom-0 z-1 pointer-events-none' src={RightLighting} alt="right-lighting" />
                 <div className="max-w-[880px] px-3 w-full mx-auto">
                     <div className="flex flex-wrap -mx-3 flex-row items-center mt-[50px] md:mt-[100px] lg:mt-[164px]">
