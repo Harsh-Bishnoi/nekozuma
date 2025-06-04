@@ -66,3 +66,18 @@ export const TEAM_DATA = [
         icon: Twitter
     }
 ]
+
+export const HEADER_DATA = [
+    {
+        name: "Overview",
+        link: "#overview"
+    },
+    {
+        name: "Story",
+        link: "#story"
+    },
+    {
+        name: "Team",
+        link: "#team"
+    },
+]

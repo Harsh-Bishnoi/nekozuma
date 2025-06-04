@@ -15,7 +15,7 @@ const Swiper = () => {
     const InfiniteRightSwiper = Array(100).fill(RightSwiper).flat()
 
     return (
-        <div id='swiper' className="flex justify-center items-center flex-col overflow-hidden">
+        <div id='overview' className="flex justify-center items-center flex-col overflow-hidden">
             <div className="flex animate-forwardScroll">
                 {InfiniteLeftSwiper.map((item, index) => (
                     <div className='overflow-hidden' id={index}>
