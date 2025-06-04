@@ -1,6 +1,6 @@
 import React from 'react'
 import Description from './common/Description'
-import Img_1 from '../assets/images/png/header-img.png'
+import Img_1 from '../assets/images/png/hero-img.png'
 import LeftLighting from '../assets/images/png/left-lighting.png'
 import RightLighting from '../assets/images/png/right-lighting.png'
 import Heder from './Header'
