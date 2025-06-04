@@ -7,7 +7,7 @@ import SwiperImg5 from '../assets/images/png/swiper-img-5.png'
 import SwiperImg6 from '../assets/images/png/swiper-img-6.png'
 import SwiperImg7 from '../assets/images/png/swiper-img-7.png'
 import SwiperImg8 from '../assets/images/png/swiper-img-8.png'
-const Swiper = () => {
+const CommonSwiper = () => {
     const LeftSwiper = [SwiperImg1, SwiperImg2, SwiperImg3, SwiperImg4];
     const RightSwiper = [SwiperImg5, SwiperImg6, SwiperImg7, SwiperImg8];
 
@@ -34,4 +34,4 @@ const Swiper = () => {
     )
 }
 
-export default Swiper
+export default CommonSwiper
