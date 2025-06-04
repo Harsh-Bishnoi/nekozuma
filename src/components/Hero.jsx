@@ -3,7 +3,7 @@ import Description from './common/Description'
 import imgOne from '../assets/images/png/hero-img.png'
 import leftLighting from '../assets/images/png/left-lighting.png'
 import rightLighting from '../assets/images/png/right-lighting.png'
-import Heder from './Header'
+import Header from './Header'
 import HeaderBorder from './common/HeaderBorder'
 
 const Hero = () => {
@@ -11,7 +11,7 @@ const Hero = () => {
         <>
             <div className="relative min-h-[635px]">
                 <div className="w-full">
-                    <Heder />
+                    <Header />
                 </div>
                 <img className='absolute left-0 bottom-[-12px] hidden lg:block max-h-[411px] pointer-events-none' src={leftLighting} alt="left-lighting" />
                 <img className='absolute right-0 bottom-0 z-1 pointer-events-none' src={rightLighting} alt="right-lighting" />
