@@ -20,7 +20,7 @@ const Hero = () => {
                         <div className="w-full px-3">
                             <Line />
                             <h1 className='font-franklin font-normal text-[56px] sm:text-[64px] leading-[100%] text-[#3586FF]'>NEKOZUMA</h1>
-                            <Description DescriptionClass={"lg:max-w-[510px] pt-3"} DescriptionText={"The collection of 5555 NFTs on the Solana blockchain. The collection serves to be a rising force against the anime meta of collections with undoxxed teams and is therefore backed by the team at Nubbies NFT & Karmic Labs."} />
+                            <Description descriptionClass={"lg:max-w-[510px] pt-3"} descriptionText={"The collection of 5555 NFTs on the Solana blockchain. The collection serves to be a rising force against the anime meta of collections with undoxxed teams and is therefore backed by the team at Nubbies NFT & Karmic Labs."} />
                             <button className='font-sarabun font-normal cursor-pointer text-base leading-[130%] mt-6 md:mt-[43px] text-white py-2 px-6 bg-[#245AAB] rounded-[9px] hover:bg-white hover:text-[#245AAB] transition-all duration-200 ease-linear'>Connect Wallet</button>
                         </div>
 

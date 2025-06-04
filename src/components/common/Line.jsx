@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Line = ({ line, LineClass }) => {
+const Line = ({ line, lineClass }) => {
     return (
-        <div className={`border border-[#3586FF] max-w-[164px] ${LineClass}`}>{line}</div>
+        <div className={`border border-[#3586FF] max-w-[164px] ${lineClass}`}>{line}</div>
     )
 }
 

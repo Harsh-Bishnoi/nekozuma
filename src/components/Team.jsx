@@ -7,8 +7,8 @@ const Team = () => {
     return (
         <div id='team' className="flex justify-center items-center mb-10 sm:mb-16">
             <div className="max-w-[880px] mt-10 sm:mt-[61px] mx-auto">
-                <Line LineClass="flex mx-auto" />
-                <SubHeading SubHeadingClass={"mt-7 sm:mt-14"} SubHeadingText={"Team"} />
+                <Line lineClass="flex mx-auto" />
+                <SubHeading subHeadingClass={"mt-7 sm:mt-14"} subHeadingText={"Team"} />
                 <div className="flex flex-wrap gap-6 mt-9 max-md:px-3">
                     {TEAM_DATA.map((item, index) => (
                         <div className='flex mx-auto flex-col w-full max-md:max-w-[320px] max-w-[202px] mb-3' id={index}>
