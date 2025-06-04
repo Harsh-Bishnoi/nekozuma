@@ -17,6 +17,16 @@
     animation: forwardScroll 4000s linear infinite;
 }
 
+.team-svg-size svg {
+    width: 20px;
+    height: 20px;
+}
+
+.footer-svg-size svg {
+    width: 32px;
+    height: 32px;
+}
+
 @keyframes forwardScroll {
     0% {
         transform: translateX(0%);
