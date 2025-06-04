@@ -1,13 +1,13 @@
 import React from 'react'
-import Line from './common/Line'
 import SubHeading from './common/SubHeading'
 import { TEAM_DATA } from '../utils/helper'
+import HeaderBorder from './common/HeaderBorder'
 
 const Team = () => {
     return (
         <div id='team' className="flex justify-center items-center mb-10 sm:mb-16">
             <div className="max-w-[880px] mt-10 sm:mt-[61px] mx-auto">
-                <Line lineClass="flex mx-auto" />
+                <HeaderBorder lineClass="flex mx-auto" />
                 <SubHeading subHeadingClass={"mt-7 sm:mt-14"} subHeadingText={"Team"} />
                 <div className="flex flex-wrap gap-6 mt-9 max-md:px-3">
                     {TEAM_DATA.map((item, index) => (
