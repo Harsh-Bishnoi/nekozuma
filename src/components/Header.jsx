@@ -17,7 +17,7 @@ const Header = () => {
         };
     }, []);
 
-    const LinkClick = () => {
+    const linkClick = () => {
         setMenuOpen(false);
         document.body.classList.remove("overflow-hidden");
     };
@@ -40,12 +40,12 @@ const Header = () => {
                     <ul id='nav-name' className={`list-unstyled flex justify-center items-center nav-link max-md:flex-col max-md:w-full max-md:min-h-screen max-md:fixed max-md:justify-center max-md:bottom-0 max-md:right-[-100%] max-md:top-0 z-3 max-md:items-center max-md:bg-[#1C2430] duration-300 ease-in-out transition-all gap-8 mb-0 ${menuOpen ? "!right-0" : ""}`}>
                         {HEADER_DATA.map((item, index) => (
                             <div id={index}>
-                                <li><a className='font-sarabun leading-[100%] text-white relative after:absolute after:-bottom-1 after:left-1/2 after:-translate-x-1/2 after:h-0.5 after:w-0 after:bg-white after:rounded hover:after:w-full after:duration-300 after:ease-linear after:transition-all' onClick={LinkClick} href={item.link}>{item.name}</a></li>
+                                <li><a className='font-sarabun leading-[100%] text-white relative after:absolute after:-bottom-1 after:left-1/2 after:-translate-x-1/2 after:h-0.5 after:w-0 after:bg-white after:rounded hover:after:w-full after:duration-300 after:ease-linear after:transition-all' onClick={linkClick} href={item.link}>{item.name}</a></li>
                             </div>
                         ))}
                         <ul className='flex gap-4.5'>
-                            <li className='hover:scale-110 transition-all duration-200 ease-linear'><a href="https://discord.com/" onClick={LinkClick} target='_blank'><Discord /></a></li>
-                            <li className='hover:scale-110 transition-all duration-200 ease-linear'><a href="https://x.com/" onClick={LinkClick} target='_blank'><Twitter /></a></li>
+                            <li className='hover:scale-110 transition-all duration-200 ease-linear'><a href="https://discord.com/" onClick={linkClick} target='_blank'><Discord /></a></li>
+                            <li className='hover:scale-110 transition-all duration-200 ease-linear'><a href="https://x.com/" onClick={linkClick} target='_blank'><Twitter /></a></li>
                         </ul>
                     </ul>
                 </div>
