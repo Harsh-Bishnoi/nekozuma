@@ -32,7 +32,7 @@ const Header = () => {
                         <span className={`block h-1 rounded-3xl bg-white transition-transform duration-300 ease-in-out ${menuOpen && 'opacity-0'}`}></span>
                         <span className={`block h-1 rounded-3xl bg-white transition-transform duration-300 ease-in-out ${menuOpen && '-rotate-45 -translate-y-2'}`}></span>
                     </div>
-                    <ul id='nav-name' className={`list-unstyled flex justify-center items-center nav-link gap-8 mb-0 ${menuOpen ? "show-navbar" : ""}`}>
+                    <ul id='nav-name' className={`list-unstyled flex justify-center items-center nav-link max-md:flex-col max-md:w-full max-md:min-h-screen max-md:fixed max-md:justify-center max-md:bottom-0 max-md:right-[-100%] max-md:top-0 z-3 max-md:items-center max-md:bg-[#1C2430] duration-300 ease-in-out transition-all gap-8 mb-0 ${menuOpen ? "!right-0" : ""}`}>
                         {HEADER_DATA.map((item, index) => (
                             <div id={index}>
                                 <li><a className='font-sarabun leading-[100%] text-white relative after:absolute after:-bottom-1 after:left-1/2 after:-translate-x-1/2 after:h-0.5 after:w-0 after:bg-white after:rounded hover:after:w-full after:duration-300 after:ease-linear after:transition-all' href={item.link}>{item.name}</a></li>
