@@ -21,7 +21,7 @@ const Header = () => {
         <nav>
             <div className="max-w-[880px] mx-auto pr-3">
                 <div className="flex justify-between items-center">
-                    <div className="relative w-[372px] h-[82px] ">
+                    <div className="relative w-full max-w-[372px] h-[82px] ">
                         <img src={blueImg} alt="blue-img" className="absolute left-[-120px] sm:left-[-150px] lg:left-[-200px] inset-0 w-full h-full object-cover pointer-events-none" />
                         <a href="/" className="absolute left-2.5 bottom-7.5 font-franklin text-[21.64px] leading-[130%] tracking-[2.2px] text-white z-1">
                             NEKOZUMA
